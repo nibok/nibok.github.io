@@ -63,6 +63,7 @@ $(function(){
 
 	$('.wx').click(function(e){
 		$('.wx-qr').toggle();
+		return false;
 	});
 
 	$(".delete").click(function(e){
