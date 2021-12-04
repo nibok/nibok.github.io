@@ -92,7 +92,7 @@ a:hover {
 }
 
 .content .banner {
-	background-color: #f7f3ed;
+	background-color: rgba(247,243,237,0.5);
 	display: block;
 	position: relative;
 	padding: 5rem 0;
@@ -117,6 +117,7 @@ a:hover {
     height: 100%;
     object-fit: cover;
 	z-index: -1;
+	filter: blur(30px);
 }
 
 .content.home .banner {
